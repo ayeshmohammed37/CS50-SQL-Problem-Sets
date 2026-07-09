@@ -40,8 +40,8 @@ SELECT ROUND(AVG("rating"), 2) FROM "longlist";
 SELECT ROUND(AVG("rating"), 2) AS "avg rating"
 	FROM "longlist";
 
-	
-	
+SELECT COUNT(DISTINCT "publisher") FROM "longlist";
+
 	
 	
 	
