@@ -1,0 +1,14 @@
+--In 1.sql, write a SQL query to list the titles of all episodes in Cyberchase’s original season, Season 1.
+SELECT "title"
+FROM "episodes"
+WHERE "season" = 1;
+
+
+/*
+Write a SQL query to find the titles of episodes that have aired during the holiday season, usually in December in the United States.
+Your query should output a table with a single column for the title of each episode.
+Try to find a better solution than LIKE if you can!
+*/
+SELECT "title" 
+FROM "episodes"
+WHERE "air_date"  LIKE '____-12-__';
